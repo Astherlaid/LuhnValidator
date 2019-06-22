@@ -6,6 +6,8 @@ namespace LuhnValidator
 {
     public class IdCardValidator
     {
+        // Prueba azul
+
         public bool ValidateIdCard(string card)
         {
             int sum = Convert.ToInt32(card.Substring(card.Length - 1));
